@@ -4,7 +4,6 @@
 body{
     background-color: beige;
     font-family: 'Oswald', sans-serif;
-
 }
 
 .container{
@@ -23,17 +22,17 @@ body{
 }
 
 .header{
- color: white;
+ color: black;
  width: 100%;
 }
 .nav-link{
 color: white;
 
 }
-
-.nav-link{
-    color: white;
+.row{
+    margin-left: 35px;
 }
+
 
 .card{
     margin-top: 20px;
