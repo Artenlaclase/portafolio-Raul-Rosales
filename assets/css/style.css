@@ -1,0 +1,46 @@
+/* Portafolio curso introduccion al desarrollo web */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+body{
+    background-color: beige;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-brand{
+    width: 150px;
+    height: auto;
+}
+.navbar-brand img{
+    width: 150px;
+    height: 70;
+}
+
+.header{
+ color: white;
+ width: 100%;
+}
+.nav-link{
+color: white;
+
+}
+
+.nav-link{
+    color: white;
+}
+
+.card{
+    margin-top: 20px;
+    align-items: center;
+}
+
+.card img{
+    width: 278px;
+    height: 300px;
+}
