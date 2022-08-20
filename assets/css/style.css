@@ -2,8 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
 body{
-    background-color: beige;
+    background-color: whitesmoke;
     font-family: 'Oswald', sans-serif;
+    color: black;
 }
 
 .container{
@@ -25,12 +26,13 @@ body{
  color: black;
  width: 100%;
 }
-.nav-link{
-color: white;
 
-}
-.row{
-    margin-left: 35px;
+
+/* carrusel*/
+
+#igual-img{
+    width: 200px;
+    height: 150px;
 }
 
 
