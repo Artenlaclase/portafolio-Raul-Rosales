@@ -30,8 +30,8 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav mx-auto">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                         <a class="nav-link" href="#desafios">Proyectos</a>
                         <a class="nav-link" href="#contacto">Contacto</a>
@@ -42,30 +42,28 @@
 
     </section>
 
-    <header id="inicio" class="text-dark text-end py-5 mt-5">
+    <header id="inicio" class="container">
+
+
 
         <div id="carouselExampleControls" class="carousel carousel-dark slide d-none d-sm-block"
             data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-
                     <div class="cards-wrapper">
-
                         <div class="card">
-
                             <div class="image-wrapper">
                                 <img src="assets/imgs/desafio1.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Desafio-1</h5>
-                                <p class="card-text">Mi Curriculum Vitae en HTML.</p>
+                                <p class="card-text">Mi Curriculum Vitae en HTML. Introducción al HTML.</p>
                                 <div class="button">
                                     <a href="https://artenlaclase.github.io/Desafio-1/" target="_blank"
                                         class="btn btn-primary">Visitar sitio</a>
                                 </div>
                             </div>
                         </div>
-
                         <div class="card">
                             <div class="image-wrapper">
                                 <img src="assets/imgs/desafio2.png" class="card-img-top" alt="...">
@@ -80,16 +78,13 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="card">
-
                             <div class="image-wrapper">
                                 <img src="assets/imgs/desafio3.png" class="card-img-top" alt="...">
                             </div>
-
                             <div class="card-body">
                                 <h5 class="card-title">Desafio-3</h5>
-                                <p class="card-text">Iguana page, posicionamiento.</p>
+                                <p class="card-text">Iguana page, posicionamiento. CSS Grid Layout</p>
                                 <div class="button">
                                     <a href="https://artenlaclase.github.io/Desafio-3-g23/" target="_blank"
                                         class="btn btn-primary">Visitar sitio</a>
@@ -102,13 +97,12 @@
                 <div class="carousel-item">
                     <div class="cards-wrapper">
                         <div class="card">
-
                             <div class="image-wrapper">
                                 <img src="assets/imgs/desafio4.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Desafio-4</h5>
-                                <p class="card-text"> Cuppon, uso de bootstrap.</p>
+                                <p class="card-text"> Cuppon, uso de bootstrap. Sitio responsivo.</p>
                                 <div class="button">
                                     <a href="https://artenlaclase.github.io/Desafio-4-g23/" target="_blank"
                                         class="btn btn-primary">Visitar sitio</a>
@@ -116,13 +110,12 @@
                             </div>
                         </div>
                         <div class="card">
-
                             <div class="image-wrapper">
                                 <img src="assets/imgs/desafio5.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Desafio-5</h5>
-                                <p class="card-text">Terminal, Git y Github.</p>
+                                <p class="card-text">Terminal, Git y Github. Fork en repositorio específico.</p>
                                 <div class="button">
                                     <a href="https://artenlaclase.github.io/Desafio-5-github-g23/" target="_blank"
                                         class="btn btn-primary">Visitar sitio</a>
@@ -130,7 +123,6 @@
                             </div>
                         </div>
                         <div class="card">
-
                             <div class="image-wrapper">
                                 <img src="assets/imgs/desafio-final.png" class="card-img-top" alt="...">
                             </div>
@@ -158,126 +150,148 @@
             </button>
         </div>
 
+
+
     </header>
 
 
 
-    <section id="desafios" class="container-fluid">
-        <div class="container texto-proyecto">
+    <section id="desafios" class="container mt-5">
+
+        <div class="texto-proyecto">
             <h1 class="display-1"> Raúl Rosales R.</h1>
-            <h2>Portafolio de desafios realizados en el Curso Introducción al desarrollo web</h2>
+            <h2>Desarrollador Web</h2>
+            <p class="texto">Portafolio de desafios realizados en el Curso Introducción al desarrollo web, Generación 23
+                Desafiolatam,
+                2022. </p>
         </div>
-        <div class="row mx-5 my-5 mt-5">
+        <div class="conteiner-fluid">
 
-            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/desafio1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio-1</h5>
-                        <p class="card-text">Mi Curriculum Vitae en HTML.</p>
-                        <div class="button">
-                            <a href="https://github.com/Artenlaclase/Desafio-1" target="_blank"
-                                class="btn btn-primary">Repositorio Github</a>
-                            <a href="https://artenlaclase.github.io/Desafio-1/" target="_blank"
-                                class="btn btn-primary">Visitar sitio</a>
+            <div class="row mx-5 my-5 mb-2 mt-5">
+
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-3 mx-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="assets/imgs/desafio1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio-1</h5>
+                            <p class="card-text">Mi Curriculum Vitae en HTML.</p>
+                            <div class="button">
+                                <a href="https://github.com/Artenlaclase/Desafio-1" target="_blank"
+                                    class="btn btn-primary">Repositorio Github</a>
+                                <a href="https://artenlaclase.github.io/Desafio-1/" target="_blank"
+                                    class="btn btn-primary">Visitar sitio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-3 mx-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="assets/imgs/desafio2.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio-2</h5>
+                            <p class="card-text">Construyendo un landing page CSS.</p>
+                            <div class="button">
+                                <a href="https://github.com/Artenlaclase/Desafio-2" target="_blank"
+                                    class="btn btn-primary">Repositorio Github</a>
+                                <a href="https://artenlaclase.github.io/Desafio-2/" target="_blank"
+                                    class="btn btn-primary">Visitar sitio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-3 mx-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="assets/imgs/desafio3.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio-3</h5>
+                            <p class="card-text">Iguana page, posicionamiento.</p>
+                            <div class="button">
+                                <a href="https://github.com/Artenlaclase/Desafio-3-g23" target="_blank"
+                                    class="btn btn-primary">Repositorio Github</a>
+                                <a href="https://artenlaclase.github.io/Desafio-3-g23/" target="_blank"
+                                    class="btn btn-primary">Visitar sitio</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/desafio2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio-2</h5>
-                        <p class="card-text">Construyendo un landing page CSS.</p>
-                        <div class="button">
-                            <a href="https://github.com/Artenlaclase/Desafio-2" target="_blank"
-                                class="btn btn-primary">Repositorio Github</a>
-                            <a href="https://artenlaclase.github.io/Desafio-2/" target="_blank"
-                                class="btn btn-primary">Visitar sitio</a>
+            <div class="row mx-5 my-5 mb-2 mt-5">
+
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-3 mx-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="assets/imgs/desafio4.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio-4</h5>
+                            <p class="card-text"> Cuppon, uso de bootstrap.</p>
+                            <div class="button">
+                                <a href="https://github.com/Artenlaclase/Desafio-4-g23" target="_blank"
+                                    class="btn btn-primary">Repositorio Github</a>
+                                <a href="https://artenlaclase.github.io/Desafio-4-g23/" target="_blank"
+                                    class="btn btn-primary">Visitar sitio</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/desafio3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio-3</h5>
-                        <p class="card-text">Iguana page, posicionamiento.</p>
-                        <div class="button">
-                            <a href="https://github.com/Artenlaclase/Desafio-3-g23" target="_blank"
-                                class="btn btn-primary">Repositorio Github</a>
-                            <a href="https://artenlaclase.github.io/Desafio-3-g23/" target="_blank"
-                                class="btn btn-primary">Visitar sitio</a>
+
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-3 mx-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="assets/imgs/desafio5.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio-5</h5>
+                            <p class="card-text">Terminal, Git y Github.</p>
+                            <div class="button">
+                                <a href="https://github.com/Artenlaclase/Desafio-5-github-g23" target="_blank"
+                                    class="btn btn-primary">Repositorio Github</a>
+                                <a href="https://artenlaclase.github.io/Desafio-5-github-g23/" target="_blank"
+                                    class="btn btn-primary">Visitar sitio</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row mx-5 my-5 mt-5">
-
-            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/desafio4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio-4</h5>
-                        <p class="card-text"> Cuppon, uso de bootstrap.</p>
-                        <div class="button">
-                            <a href="https://github.com/Artenlaclase/Desafio-4-g23" target="_blank"
-                                class="btn btn-primary">Repositorio Github</a>
-                            <a href="https://artenlaclase.github.io/Desafio-4-g23/" target="_blank"
-                                class="btn btn-primary">Visitar sitio</a>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-3 mx-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="image-wrapper">
+                            <img src="assets/imgs/desafio-final.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio final</h5>
+                            <p class="card-text">Portafolio de los Desafios realizados.</p>
+                            <div class="button">
+                                <a href="https://github.com/Artenlaclase/portafolio-Raul-Rosales/" target="_blank"
+                                    class="btn btn-primary">Repositorio Github</a>
+                                <a href="https://artenlaclase.github.io/portafolio-Raul-Rosales/" target="_blank"
+                                    class="btn btn-primary">Visitar sitio</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/desafio5.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio-5</h5>
-                        <p class="card-text">Terminal, Git y Github.</p>
-                        <div class="button">
-                            <a href="https://github.com/Artenlaclase/Desafio-5-github-g23" target="_blank"
-                                class="btn btn-primary">Repositorio Github</a>
-                            <a href="https://artenlaclase.github.io/Desafio-5-github-g23/" target="_blank"
-                                class="btn btn-primary">Visitar sitio</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/desafio-final.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio final</h5>
-                        <p class="card-text">Portafolio de los Desafios realizados.</p>
-                        <div class="button">
-                            <a href="https://github.com/Artenlaclase/portafolio-Raul-Rosales/" target="_blank"
-                                class="btn btn-primary">Repositorio Github</a>
-                            <a href="https://artenlaclase.github.io/portafolio-Raul-Rosales/" target="_blank"
-                                class="btn btn-primary">Visitar sitio</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
+            </div>
         </div>
 
     </section>
-    <section id="contacto">
+    <section id="contacto" class="container-fluid">
 
-        <div class="container">
-            <h2 class="display-2"> Contacto</h2>
-            <table>
+        <div class="contacto">
+            <h2 class="display-2"> Contacto</h2><br>
+            <table class="container justify-content-end">
                 <tr>
                     <th><a href="https://www.facebook.com/artenlaclase/" target="_blank" rel="noopener noreferrer"> <img
-                                src="assets/imgs/facebook2.png" width="50px" height="50px" alt="facebook"></a></th>
+                                src="assets/imgs/facebook2.png" width="50px" height="50px" alt="facebook"></a>
+                    </th>
                     <th><a href="https://www.instagram.com/artenlaclase/" target="_blank" rel="noopener noreferrer">
                             <img src="assets/imgs/instagram_logo_icon.png" width="50px" height="50px"
                                 alt="Instagram"></a></th>
@@ -286,7 +300,8 @@
                     </th>
                     <th><a href="https://cl.linkedin.com/in/raúl-rosales-rebolledo-00302a137" target="_blank"
                             rel="noopener noreferrer"> <img src="assets/imgs/linkedin3.png" width="40px" height="40px"
-                                alt="Linkedin"></a></th>
+                                alt="Linkedin"></a>
+                    </th>
                 </tr>
             </table>
         </div>
